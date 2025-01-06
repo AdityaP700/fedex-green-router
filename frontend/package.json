@@ -1,0 +1,35 @@
+{
+  "name": "fedex-green-router-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mantine/core": "^7.15.2",
+    "@mantine/hooks": "^7.3.2",
+    "@mantine/notifications": "^7.15.2",
+    "@mui/material": "^6.3.1",
+    "@tabler/icons-react": "^3.26.0",
+    "axios": "^1.6.5",
+    "esbuild": "^0.24.2",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.0",
+    "react-router-dom": "^6.21.1"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.15",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "typescript": "^5.3.3",
+    "vite": "^6.0.7"
+  }
+}
